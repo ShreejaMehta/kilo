@@ -5,7 +5,8 @@
 #include<ctype.h>
 #include <stdio.h>
 #include <errno.h>
-
+/***Defines***/
+#define CTRL_KEY(k) ((k)& )
 /*** data ***/
 struct termios orig_termios;
 
